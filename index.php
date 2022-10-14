@@ -19,12 +19,6 @@
                 </div>
                 <div class="enlaces-header">
                     <button>
-                    <a href="#"><b><?php echo $TEXT_REGISTRE; ?></b></a>
-                    </button>
-                    <button>
-                    <a href="#"><b><?php echo $TEXT_LOGIN; ?></b></a>
-                    </button>
-                    <button>
                     <form id="push-lang" action="/" method="post">
                     <input type="hidden" name="lang" id="lang" value="<?php
                                 if ($LANG=="es"){
@@ -180,7 +174,7 @@
                     <p>Diseño Web HTML5.</p>
                 </div>
                 <div class="number" data-aos="zoom-in-left">
-                    <h4>+4 años</h4>
+                    <h4>+5 años</h4>
                     <p>Diseño Web CSS CSS5.</p>
                 </div>
                 
@@ -218,9 +212,9 @@
         <div class="partFooter">
             <h4>Redes sociales</h4>
             <div class="social-media">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
+                    <i style="background: url(/img/github.png);background-size: contain;background-position: center;background-repeat: no-repeat;" class="fab fa-facebook-f"><a href="https://github.com/ObisoftDev">  </a></i>
+                    <i style="background: url(/img/youtube.png);background-size: contain;background-position: center;background-repeat: no-repeat;" class="fab fa-facebook-f"><a href="https://m.youtube.com/channel/UCB1gH3rhENpWnsnxkA5Fl1Q">  </a></i>
+                    <i style="background: url(/img/telegram.png);background-size: contain;background-position: center;background-repeat: no-repeat;" class="fab fa-facebook-f"><a href="https://t.me/obisoft_academy">  </a></i>
             </div>
         </div>
     </footer>
